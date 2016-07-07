@@ -4,8 +4,8 @@ Pusher.log = function(message) {
   }
 };
 
-var pusher = new Pusher("PUSHER_APP_KEY");
-var apiURL = "https://tweet-stats-api.herokuapp.com";
+var pusher = new Pusher("25d18135c241f60bfb1f");
+var apiURL = "http://localhost:5001";
 
 function numberWithCommas(x) {
  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
